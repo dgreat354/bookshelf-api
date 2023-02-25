@@ -73,7 +73,7 @@ const addBookHandler = async (req, h) => {
         }).code(500);
     } catch (err) {
         // handle error here
-        console.log(err);
+        console.error(err);
     }
 };
 
